@@ -1,0 +1,20 @@
+/* src/pages/AssetPage/AssetPage.css */
+.asset-page {
+    padding: 20px;
+  }
+  
+  .asset-page h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .back-to-list {
+    margin-top: 20px;
+  }
+  
+  .back-to-list a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.1em;
+  }
+  

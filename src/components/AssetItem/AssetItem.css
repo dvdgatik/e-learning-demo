@@ -1,0 +1,48 @@
+.asset-item {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+    margin-bottom: 20px; /* Separación entre los items */
+    padding: 10px;
+    border: 1px solid #ddd; /* O cualquier estilo que desees */
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .asset-link {
+    display: flex; /* Flexbox para organizar la imagen y el contenido */
+    text-decoration: none; /* Eliminar el subrayado del enlace */
+    color: inherit; /* Mantener el color original */
+  }
+  
+  .asset-image {
+    margin-right: 15px; /* Separación entre la imagen y el contenido */
+  }
+  
+  .asset-thumbnail {
+    width: 150px; /* Tamaño de la imagen */
+    height: 150px;
+    object-fit: cover; /* Asegura que la imagen no se distorsione */
+    border-radius: 8px;
+  }
+  
+  .asset-content {
+    display: flex;
+    flex-direction: column; /* Coloca el título y la descripción en columna */
+    justify-content: center; /* Centra el contenido verticalmente */
+  }
+  
+  .asset-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .asset-description {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .asset-type {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
